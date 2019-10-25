@@ -138,6 +138,7 @@ describe('Carousel', () => {
       );
     });
 
+
     it('allows individual slides to override Img and imgHeight', () => {
       const Img = () => 'test';
       const imgHeight = 1234;
